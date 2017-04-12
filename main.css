@@ -1,0 +1,41 @@
+    *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'circular';
+	src:url('circular-book.otf');
+}
+ 
+html, body {
+  height: 100%;
+  font-family: 'circular';
+}
+
+header {
+		margin: 20px 10px;
+	
+		color: rgba(100,100,100,1);
+}
+
+p {
+	font-size: 30px;
+	color: white;
+}
+.scale {
+  margin-top: -15px;
+}
+
+#currentb {
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+#slider {
+background-color: rgba(100,100,100,1);
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding: 0px 50px;
+}
